@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="body_content" class="mt-5">
+      <header class="text-white">
+        <h1>Todo</h1>
+        <h2 id="date"></h2>
+      </header>
+      <main>
+        <form id="todo_form" class="d-flex border border-light mt-4">
+          <input
+            class="form-control text"
+            type="text"
+            id="todo_input"
+            name="todo_input"
+            placeholder="New To do..."
+          />
+          <button type="submit" id="submit_button" class="btn">+</button>
+        </form>
+        <div class="d-flex justify-content-end mt-2 mb-3">
+          <input
+            type="button"
+            id="clear_button"
+            name="clear_button"
+            value="Clear All"
+          />
+        </div>
+        <ul id="todo-list" class="list-group border"></ul>
+      </main>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

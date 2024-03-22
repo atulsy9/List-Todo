@@ -1,0 +1,21 @@
+body {
+  background: linear-gradient(to right, rgb(75, 121, 161), rgb(40, 62, 81));
+}
+#body_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#submit_button {
+  border: 0.5px ridge white;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 5px;
+}
+#todo_input {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 0px;
+}
