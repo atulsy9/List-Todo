@@ -8,12 +8,12 @@
       "type": "image/png"
     },
     {
-      "src": "to-do-list.png",
+      "src": "todo-list.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "to-do-list.png",
+      "src": "todo-list.png",
       "type": "image/png",
       "sizes": "512x512"
     }
